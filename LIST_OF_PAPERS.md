@@ -8,7 +8,7 @@
   - &chi;-separataion-COSMOS: chi-separation using multi-orientation data in invivo and exvivo brains: Visualization of  histology up to the resolution of 350 μm (2022), HG Shin et al. [[Paper](https://archive.ismrm.org/2022/0771.html)]
   - BUDA-SAGE (Sequence): Blip up-down acquisition for spin- and gradient-echo imaging (BUDA-SAGE) with self-supervised denoising enables efficient T2, T2*, para- and dia-magnetic susceptibility mapping (2022), Z Zhang et al. [[Paper](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.29219)]
   - Comparison between R2' based- and R2\* based-*&chi;*-separation: Comparison between R2′-based and R2*-based χ-separation methods: A clinical evaluation in individuals with multiple sclerosis (2024), S Ji et al. [[Paper](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/full/10.1002/nbm.5167)]
-  - &chi;-sepnet: Deep neural network for magnetic susceptibility source separation (2024), M Kim et al. [[Paper](https://arxiv.org/abs/2409.14030)]
+  - &chi;-sepnet: Deep neural network for magnetic susceptibility source separation (2025), M Kim et al. [[Paper](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.70136)]
 &nbsp;
 * **Technical papers from other labs**
   - On the separation of susceptibility sources in quantitative susceptibility mapping: Theory and phantom validation with an in vivo application to multiple sclerosis lesions of different age (2021), J Emmerich et al. [[Paper](https://www.sciencedirect.com/science/article/pii/S1090780721001221)]
