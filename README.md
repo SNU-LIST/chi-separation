@@ -1,6 +1,7 @@
 #  chi-separation toolbox (*&chi;*-separation, x-separation)
 
-* ⭐ Toolbox version 1.2 will be released soon. 
+* ⭐ Toolbox version 1.2 is released!
+* ⭐ A download link will be sent to your email once you submit the Google Form: https://forms.gle/nhJahF86zpMgEKvM9
 * ⭐ This toolbox is developed for in-vivo human 3T and 7T datasets. Other field stengths, high resolution ex-vivo or nonhuman datasets (< 0.6 mm) are not fully tested and may require additional processing.  
 * ⭐ E-mail us if you need data processing other than in-vivo human 3T datasets. We may be able to help you with scan protocol and processing. 
 * ⭐ If you have both GRE and SE data, you have data processing options of conventional optimization (MEDI, iLSQR) and neural network (chi-sepnet-R2', better quality). 
