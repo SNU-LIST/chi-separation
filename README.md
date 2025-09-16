@@ -1,7 +1,7 @@
 #  chi-separation toolbox (*&chi;*-separation, x-separation)
 
-* ⭐ Toolbox version 1.2 is released!
-* ⭐ A download link for Toolbox version 1.2 will be sent to your email once you submit the Google Form: https://forms.gle/nhJahF86zpMgEKvM9
+* ⭐ Toolbox version 1.2.1 is released!
+* ⭐ A download link for Toolbox version 1.2.1 will be sent to your email once you submit the Google Form: https://forms.gle/nhJahF86zpMgEKvM9
 * ⭐ This toolbox is developed for in-vivo human 3T and 7T datasets. Other field stengths, high resolution ex-vivo or nonhuman datasets (< 0.6 mm) are not fully tested and may require additional processing.  
 * ⭐ E-mail us if you need data processing other than in-vivo human 3T datasets. We may be able to help you with scan protocol and processing. 
 * ⭐ If you have both GRE and SE data, you have data processing options of conventional optimization (MEDI, iLSQR) and neural network (chi-sepnet-R2', better quality). 
@@ -15,7 +15,7 @@
   - **_&chi;_-sepnet using _R_<sub>2</sub>' (or _R_<sub>2</sub>\* )**: A U-Net-based neural network that reconstructs COSMOS-quality *&chi;*-separation using *R*<sub>2</sub>' and phase. In case *R*<sub>2</sub> is not measured, another neural network is trained to estimate *&chi;*-separation maps from *R*<sub>2</sub>\* and phase.
   - The toolbox also supports phase preprocessing (e.g. phase unwrapping and background removal) powered by MEDI, STI Suite, SEGUE, and mritools toolboxs (see the Chisep_script.m file for details). 
 
-* Last update: March-11-2025 (Byeongpil Moon, Taechang Kim, Hangyeol Park, Sooyeon Ji, Hyeong-Geol Shin, Jun-Hyeok Lee, Minjun Kim, Kyeongseon Min)
+* Last update: September-16-2025 (Taechang Kim, Byeongpil Moon, Hangyeol Park, Sooyeon Ji, Hyeong-Geol Shin, Jun-Hyeok Lee, Minjun Kim, Kyeongseon Min)
 
 
 ## Requirements
