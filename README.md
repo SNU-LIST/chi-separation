@@ -1,7 +1,7 @@
 #  chi-separation toolbox (*&chi;*-separation, x-separation)
 
-* ⭐ Toolbox version 1.2.1 is released!
-* ⭐ A download link for Toolbox version 1.2.1 will be sent to your email once you submit the Google Form: https://forms.gle/nhJahF86zpMgEKvM9
+* ⭐ Toolbox version 1.2.2 is released!
+* ⭐ A download link for Toolbox version 1.2.2 will be sent to your email once you submit the Google Form: https://forms.gle/nhJahF86zpMgEKvM9
 * ⭐ This toolbox is developed for in-vivo human 3T and 7T datasets. Other field stengths, high resolution ex-vivo or nonhuman datasets (< 0.6 mm) are not fully tested and may require additional processing.  
 * ⭐ E-mail us if you need data processing other than in-vivo human 3T datasets. We may be able to help you with scan protocol and processing. 
 * ⭐ If you have both GRE and SE data, you have data processing options of conventional optimization (MEDI, iLSQR) and neural network (chi-sepnet-R2', better quality). 
@@ -15,15 +15,13 @@
   - **_&chi;_-sepnet using _R_<sub>2</sub>' (or _R_<sub>2</sub>\* )**: A U-Net-based neural network that reconstructs COSMOS-quality *&chi;*-separation using *R*<sub>2</sub>' and phase. In case *R*<sub>2</sub> is not measured, another neural network is trained to estimate *&chi;*-separation maps from *R*<sub>2</sub>\* and phase.
   - The toolbox also supports phase preprocessing (e.g. phase unwrapping and background removal) powered by MEDI, STI Suite, SEGUE, and mritools toolboxs (see the Chisep_script.m file for details). 
 
-* Last update: September-16-2025 (Taechang Kim, Byeongpil Moon, Hangyeol Park, Sooyeon Ji, Hyeong-Geol Shin, Jun-Hyeok Lee, Minjun Kim, Kyeongseon Min)
-
+* Last update: June-03-2026 (Taechang Kim, Hyeong-Geol Shin)
 
 ## Requirements
-* Common requirement
-  - MATLAB (tested in R2019a-R2021a. Toolbox will fail any version before R2019a.)
-* Additional requirements
+* MATLAB version (tested in R2021a-R2026a. Toolbox will fail any version before R2021a.)
+* MATLAB Add-Ons:
+  - Image Processing Toolbox, Signal Processing Toolbox, Parallel Computing Toolbox, Statistics and Machine Learning Toolbox, Deep Learning Toolbox
   - For QSMnet and *&chi;*-sepnet, Deep Learning MATLAB Toolbox Converter for ONNX Model Format (https://www.mathworks.com/matlabcentral/fileexchange/67296-deep-learning-toolbox-converter-for-onnx-model-format)
-  - For DICOM/NIFTI read and phase processing, see https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0
 
 ## Recommendation for acquisition 
 * Multiecho GRE data for in-vivo
@@ -40,8 +38,8 @@
 
 ## Reference
 * H. Shin, J. Lee, Y. H. Yun, S. H. Yoo, J. Jang, S.-H. Oh, Y. Nam, S. Jung, S. Kim, F. Masaki, W. Kim, H. J. Choi, J. Lee. *&chi;*-separation: Magnetic susceptibility source separation toward iron and myelin mapping in the brain. Neuroimage, 2021 Oct; 240:118371.
-* For more papers related to *&chi;*-separation, please refer to [[link](https://github.com/SNU-LIST/chi-separation/blob/main/LIST_OF_PAPERS.md)]
 
 ## Contacts
 * snu.list.software@gmail.com
 * sin4109@gmail.com (Hyeong-Geol Shin, PhD)
+* sakkar2@snu.ac.kr (Taechang Kim, PhD student @ SNU-LIST)
